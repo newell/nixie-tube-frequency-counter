@@ -1,3 +1,3 @@
 schematics frequency_counter_front_end.sch
 output-name frequency_counter
-elements-dir /home/newell/code/gedasymbols/www/user/newell_jensen/footprints
+elements-dir /home/newell/code/footprints
