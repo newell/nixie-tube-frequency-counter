@@ -1,0 +1,3 @@
+schematics hvpsu.sch
+output-name hvpsu
+elements-dir /home/newell/code/footprints
