@@ -264,24 +264,6 @@ If you only want 25mA output, you can use a 1A inductor for L1 [e.g. a CDRH125-1
 Join TB1-4 and TB1-3 to VCC [9-16V]
 Join TB1-1 and TB2-2 to GND
 Rsense MUST be capable of handling at least 2A
-C 55800 45200 1 0 0 tb2p200.sym
-{
-T 56650 45500 5 10 1 1 0 0 1
-refdes=TB2
-T 56125 46375 5 10 0 0 0 0 1
-footprint=tb2p200
-T 56125 46525 5 10 0 0 0 0 1
-device=TerminalBlock
-}
-C 41300 45900 1 180 0 tb4p200.sym
-{
-T 40425 45300 5 10 1 1 180 0 1
-refdes=TB1
-T 40990 43915 5 10 0 0 180 0 1
-device=TerminalBlock
-T 40975 44270 5 10 0 0 180 0 1
-footprint=tb4p200
-}
 N 55800 46400 55800 45700 4
 N 55800 45400 55800 44700 4
 N 41300 48300 41300 45700 4
@@ -299,5 +281,35 @@ footprint=S08
 T 49000 47300 5 8 0 0 0 0 1
 value=MAX1771
 T 49000 47100 5 8 0 0 0 0 1
+symversion=1.0
+}
+C 41300 45900 1 180 0 tb4p5mm.sym
+{
+T 40425 45300 5 10 1 1 180 0 1
+refdes=TB1
+T 40500 42700 5 8 0 0 180 0 1
+device=TERMINAL_BLOCK
+T 40500 43300 5 8 0 0 180 0 1
+footprint=TB4P5MM
+T 40500 43500 5 8 0 0 180 0 1
+value=1729034
+T 40500 43700 5 8 0 0 180 0 1
+symversion=1.0
+T 40500 42700 5 8 0 0 180 0 1
+device=TERMINAL_BLOCK
+T 40500 43700 5 8 0 0 180 0 1
+symversion=1.0
+}
+C 55800 45200 1 0 0 tb2p5mm.sym
+{
+T 56650 45500 5 10 1 1 0 0 1
+refdes=TB2
+T 56600 47800 5 8 0 0 0 0 1
+device=TERMINAL_BLOCK
+T 56600 47200 5 8 0 0 0 0 1
+footprint=TB2P5MM
+T 56600 47000 5 8 0 0 0 0 1
+value=1729018
+T 56600 46800 5 8 0 0 0 0 1
 symversion=1.0
 }
