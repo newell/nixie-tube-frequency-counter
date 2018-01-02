@@ -9,7 +9,7 @@ device=BNC
 T 40600 48100 5 10 1 1 0 0 1
 refdes=CONN2
 T 40600 47300 5 10 0 1 0 0 1
-footprint=BNC_VERT
+footprint=BNC_LAY
 }
 C 40600 43100 1 0 0 BNC-1.sym
 {
@@ -18,7 +18,7 @@ device=BNC
 T 40600 43900 5 10 1 1 0 0 1
 refdes=CONN1
 T 40600 43100 5 10 0 1 0 0 1
-footprint=BNC_VERT
+footprint=BNC_LAY
 }
 C 41300 47600 1 0 0 capacitor-1.sym
 {
@@ -653,6 +653,8 @@ T 50700 42800 5 10 1 1 0 0 1
 value=20k
 T 51100 43400 5 10 0 1 0 0 1
 partnumber=ST4ETA203CT-ND
+T 51100 43400 5 10 0 1 0 0 1
+footprint=ST4ETA203
 }
 N 49100 42500 49100 42300 4
 N 49100 41400 49100 41200 4
