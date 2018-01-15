@@ -4030,7 +4030,7 @@ ha:pcb-rnd-board-v4 {
 
     ha:ground {
      lid=1
-     group=5
+     group=16
      ha:combining {     }
      visible=1
 
@@ -4145,7 +4145,7 @@ ha:pcb-rnd-board-v4 {
 
     ha:bottom {
      lid=5
-     group=16
+     group=5
      ha:combining {     }
      visible=1
 
@@ -4173,7 +4173,7 @@ ha:pcb-rnd-board-v4 {
       }
     }
 
-    {ha:bottom silk}                                        {
+    {ha:bottom silk}                                         {
      lid=8
      group=18
      ha:combining { auto=1;     }
@@ -4183,7 +4183,7 @@ ha:pcb-rnd-board-v4 {
       }
     }
 
-    {ha:top silk}                                        {
+    {ha:top silk}                                         {
      lid=9
      group=1
      ha:combining { auto=1;     }
@@ -6301,7 +6301,7 @@ ha:pcb-rnd-board-v4 {
    ha:5 {
     name = Intern
     ha:type { copper=1; intern=1;    }
-    li:layers { 1;    }
+    li:layers { 5;    }
    }
    ha:6 {
     ha:type { substrate=1; intern=1;    }
@@ -6356,7 +6356,7 @@ ha:pcb-rnd-board-v4 {
    ha:16 {
     name = bottom_copper
     ha:type { bottom=1; copper=1;    }
-    li:layers { 5;    }
+    li:layers { 1;    }
    }
    ha:17 {
     name = bottom_mask
@@ -6378,10 +6378,10 @@ ha:pcb-rnd-board-v4 {
  li:pcb-rnd-conf-v1 {
   ha:overwrite {
    ha:design {
-    line_thickness = 25.00 mil
+    line_thickness = 10.00 mil
     groups = {1,c:2:3:4:5:6,s:7:8}
-    via_thickness = 60.00 mil
-    via_drilling_hole = 35.00 mil
+    via_thickness = 36.00 mil
+    via_drilling_hole = 20.00 mil
     clearance = 10.00 mil
      min_ring = 10.00 mil
      min_drill = 15.00 mil
@@ -6419,6 +6419,11 @@ ha:pcb-rnd-board-v4 {
     show_drc = false
      grid = 10.00 mil
      buffer_number = 0
+      show_solder_side = 0
+     ha:view {
+      flip_x = 0
+      flip_y = 0
+     }
    }
    ha:plugins {
     ha:mincut {
