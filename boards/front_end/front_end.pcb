@@ -321,6 +321,7 @@ ha:pcb-rnd-board-v4 {
        name=Vcc; number=1; x1=30.51mil; y1=0.649986mm; x2=1.225042mm; y2=0.649986mm; mask=25.78mil; thickness=0.350012mm; clearance=0.0;
  ha:flags ={ edge2=1
  termname=1
+ square=1
  };      }
       ha:pad.10 {
        name=GND; number=2; x1=30.51mil; y1=0.0; x2=1.225042mm; y2=0.0; mask=25.78mil; thickness=0.350012mm; clearance=20.0mil;
@@ -4147,7 +4148,7 @@ ha:pcb-rnd-board-v4 {
       }
     }
 
-    {ha:bottom silk}                                                           {
+    {ha:bottom silk}                                                             {
      lid=8
      group=18
      ha:combining { auto=1;     }
@@ -4157,7 +4158,7 @@ ha:pcb-rnd-board-v4 {
       }
     }
 
-    {ha:top silk}                                                           {
+    {ha:top silk}                                                             {
      lid=9
      group=1
      ha:combining { auto=1;     }
@@ -6352,10 +6353,10 @@ ha:pcb-rnd-board-v4 {
  li:pcb-rnd-conf-v1 {
   ha:overwrite {
    ha:design {
-    line_thickness = 25.00 mil
+    line_thickness = 10.00 mil
     groups = {1,c:2:3:4:5:6,s:7:8}
-    via_thickness = 60.00 mil
-    via_drilling_hole = 35.00 mil
+    via_thickness = 36.00 mil
+    via_drilling_hole = 20.00 mil
     clearance = 10.00 mil
      min_ring = 10.00 mil
      min_drill = 15.00 mil
